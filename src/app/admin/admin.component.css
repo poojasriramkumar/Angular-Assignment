@@ -1,0 +1,37 @@
+.products{
+    display: flex;
+}
+.contents
+{
+  display:flex;
+    
+}
+.content >mat-card >img{
+    object-fit: contain;
+    height: 200px;
+  }
+.content >mat-card{
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    width: 380px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  } 
+  .features{
+      display: flex;
+  }
+  .feature >mat-card >img{
+    object-fit: contain;
+    height: 200px;
+  }
+  .features >mat-card{
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    width: 300px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  } 

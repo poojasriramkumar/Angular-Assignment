@@ -1,0 +1,21 @@
+.products{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product >mat-card >img{
+  object-fit: contain;
+  height: 200px;
+}
+.product >mat-card{
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  width: 275px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+} 
+.images{
+  display: flex;
+}

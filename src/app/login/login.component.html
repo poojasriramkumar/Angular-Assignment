@@ -1,0 +1,76 @@
+
+<div class="example-container" >
+    <mat-card flex-gt-sm class="push">
+    <div style="text-align: center;">
+
+    <mat-card-title>Email </mat-card-title>
+    
+    <mat-form-field appearance="fill">
+
+      <mat-label>Enter your email </mat-label>
+      <input matInput placeholder="pat@example.com" [formControl]="email" required>
+      <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+      
+    </mat-form-field>
+   
+     
+</div>
+<div class="example-container1" >
+    
+    <div style="text-align: center;">
+
+    <mat-card-title>Name </mat-card-title>
+    
+    <mat-form-field appearance="fill">
+
+      <mat-label>Enter your name </mat-label>
+      <input matInput placeholder=" " [formControl]="name" required>
+       </mat-form-field>
+   
+     
+</div>
+<div class="example-container2" >
+    
+    <div style="text-align: center;">
+
+    <mat-card-title>Country </mat-card-title>
+    
+    <mat-form-field appearance="fill">
+
+      <mat-label>Enter your country name</mat-label>
+      <input matInput placeholder=" " [formControl]="country" required>
+       </mat-form-field>
+   
+     
+</div>
+
+<div class="example-container2" >
+    
+    <div style="text-align: center;">
+
+    <mat-card-title>Contact Number</mat-card-title>
+    
+    <mat-form-field appearance="fill">
+
+      <mat-label>Enter your mobile no </mat-label>
+      <input matInput placeholder=" " [formControl]="contacts" required>
+       </mat-form-field>
+   
+     
+</div>
+<div class="example-container2" >
+    
+    <div style="text-align: center;">
+
+    <mat-card-title>Another Contact Number</mat-card-title>
+    
+    <mat-form-field appearance="fill">
+
+      <mat-label>Enter your mobile no </mat-label>
+      <input matInput placeholder=" " [formControl]="contacts2" required>
+       </mat-form-field>
+   
+     
+</div>
+
+  
